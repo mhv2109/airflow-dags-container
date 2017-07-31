@@ -1,4 +1,4 @@
-# Airflow-DAGS-Container
+# airflow-dags-container
 
 Add Airflow DAGS, DAG requirements (outside of regular Airflow requirements), and DAG tests to your [Ansible Container](https://github.com/ansible/ansible-container) project.
 
