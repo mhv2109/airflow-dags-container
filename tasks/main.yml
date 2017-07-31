@@ -7,9 +7,9 @@
 
 - name: Copy tests
   copy:
-    src: "{{ AIRFLOW_TEST_SRC }}"
-    dest: "{{ AIRFLOW_TEST_DEST }}"
-  when: "AIRFLOW_TEST_SRC is defined and AIRFLOW_TEST_DEST is defined"
+    src: "{{ AIRFLOW_DAGS_TEST_SRC }}"
+    dest: "{{ AIRFLOW_DAGS_TEST_DEST }}"
+  when: "AIRFLOW_DAGS_TEST_SRC is defined and AIRFLOW_DAGS_TEST_DEST is defined"
 
 - name: Copy requirments
   copy:
