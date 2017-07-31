@@ -1,0 +1,6 @@
+---
+
+AIRFLOW_USER: "root"
+AIRFLOW_HOME: "/usr/local/airflow"
+AIRFLOW_DAGS_DEST: "/root/airflow"
+AIRFLOW_DAGS_REQS_DEST: "{{ AIRFLOW_HOME }}/requirements.txt"

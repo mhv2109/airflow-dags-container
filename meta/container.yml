@@ -1,0 +1,4 @@
+---
+
+from: 'debian:jessie'
+user: '{{ AIRFLOW_USER }}'
